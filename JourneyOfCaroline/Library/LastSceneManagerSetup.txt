@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/Kingdom_of_Sky_Mirrors.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

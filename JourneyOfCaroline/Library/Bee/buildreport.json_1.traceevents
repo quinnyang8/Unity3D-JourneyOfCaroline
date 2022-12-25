@@ -1,0 +1,711 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1671785199295449, "dur": 225041, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671785199295681, "dur": 4819, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671785199300502, "dur": 205821, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671785199506324, "dur": 14164, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671785199521244, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671785199335162, "dur":1021, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199336194, "dur":168, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671785199336408, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671785199336430, "dur":376, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671785199336824, "dur":692, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199337516, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497071, "dur":169, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497240, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497286, "dur":76, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497362, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497371, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497374, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497380, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497382, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497388, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497390, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497396, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497398, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497404, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497406, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497411, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497413, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497419, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497421, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497427, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497429, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497435, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497436, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497443, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497445, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497451, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497462, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199497509, "dur":1367, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671785199337346, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199337581, "dur":7496, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199345085, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671785199345088, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199345115, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671785199345117, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199345242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199352430, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671785199355884, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671785199356032, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199356313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199362260, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671785199364783, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671785199364981, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199365171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199365221, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671785199368727, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199368916, "dur":938, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199369961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199369969, "dur":9630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199379647, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199379665, "dur":1064, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199380739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199380748, "dur":11182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199391949, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199392279, "dur":1223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199393508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199393514, "dur":7616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199401146, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199401157, "dur":559, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199401720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199401724, "dur":5387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199407126, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199407136, "dur":563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199407704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199407708, "dur":5836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199413559, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199413573, "dur":544, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199414121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199414125, "dur":5375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199419514, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199419525, "dur":693, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199420222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199420227, "dur":5313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199425554, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199425649, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199426260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199426265, "dur":6661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199432948, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199432967, "dur":658, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199433629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199433635, "dur":5700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199439350, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199439361, "dur":688, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199440053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199440058, "dur":7699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671785199447776, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671785199447798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199447805, "dur":10868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1671785199458703, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1671785199458865, "dur":1139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199460023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671785199460039, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1671785199462383, "dur":34708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199338579, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199338579, "dur":6594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199345173, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1671785199345495, "dur":1376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199346877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199360880, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1671785199364493, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671785199364654, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199364866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199364877, "dur":4060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671785199369121, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199369141, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199369457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199369824, "dur":9221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199379065, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199379082, "dur":1332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199380421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199380431, "dur":8514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199388961, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199388974, "dur":2608, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199391602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199391629, "dur":7862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199399511, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199399527, "dur":594, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199400127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199400132, "dur":5378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199405524, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199405534, "dur":625, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199406164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199406168, "dur":5700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199411882, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199411892, "dur":724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199412620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199412625, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199418096, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199418107, "dur":678, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199418789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199418794, "dur":5219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199424027, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199424145, "dur":672, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199424823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199424828, "dur":6006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199430850, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199430865, "dur":1016, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199431886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199431891, "dur":6246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199438156, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199438176, "dur":845, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199439025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199439029, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671785199445572, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1671785199445599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199445607, "dur":8365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1671785199453994, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1671785199454011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671785199454015, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1671785199460526, "dur":36542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199337470, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199337626, "dur":7549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199345175, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671785199345489, "dur":1412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199346907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199363895, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671785199367048, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/usequencerRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199367073, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199367265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199369367, "dur":8206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/usequencerRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199377588, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199377600, "dur":1698, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199379328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199379467, "dur":8738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199388226, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199388245, "dur":1281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199389531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199389538, "dur":9596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199399150, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199399170, "dur":489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199399698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199399703, "dur":5274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199404995, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199405011, "dur":549, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199405564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199405568, "dur":5993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199411575, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199411586, "dur":705, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199412296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199412301, "dur":5407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199417726, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199417740, "dur":503, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199418247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199418252, "dur":5327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199423593, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199423698, "dur":705, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199424413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199424422, "dur":6014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199430455, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199430467, "dur":867, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199431339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199431346, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199437215, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199437229, "dur":880, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199438114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199438120, "dur":6531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671785199444669, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1671785199444695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199444868, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1671785199447168, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671785199447182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671785199447187, "dur":17176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1671785199464383, "dur":32700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199337624, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199337625, "dur":7553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199345178, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671785199345536, "dur":1448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199347009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199361435, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671785199365612, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1671785199365835, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199366030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199366041, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1671785199368772, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199368794, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199369008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199370927, "dur":8783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199379725, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199379736, "dur":1062, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199380806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199380816, "dur":11383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199392215, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199392225, "dur":1260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199393489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199393493, "dur":7080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199400590, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199400601, "dur":721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199401328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199401335, "dur":4947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199406296, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199406308, "dur":894, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199407234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199407239, "dur":5389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199412644, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199412655, "dur":983, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199413644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199413650, "dur":5209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199418873, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199418897, "dur":944, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199419845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199419850, "dur":5107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199424972, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199425069, "dur":843, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199425916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199425921, "dur":5671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199431609, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199431624, "dur":917, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199432545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199432550, "dur":5459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199438028, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/sharedRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199438047, "dur":878, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199438929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199438933, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/sharedRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671785199445067, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671785199445088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199445093, "dur":7824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671785199452931, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671785199452945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671785199452949, "dur":6945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671785199459924, "dur":37145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199337902, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199337902, "dur":7275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199345178, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1671785199345518, "dur":1394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199346918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199361857, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1671785199366482, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline.exe" }}
+,{ "pid":12345, "tid":5, "ts":1671785199366503, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199366730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199366736, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline.exe" }}
+,{ "pid":12345, "tid":5, "ts":1671785199369992, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199370015, "dur":1497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199371518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199371793, "dur":9256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199381069, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199381083, "dur":839, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199381933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199381943, "dur":11677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199393637, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199393669, "dur":1002, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199394712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199394721, "dur":6756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199401494, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199401512, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199402091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199402097, "dur":5296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199407407, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199407418, "dur":617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199408045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199408055, "dur":5774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199413846, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199413857, "dur":489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199414356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199414364, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199420129, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199420298, "dur":686, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199421013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199421018, "dur":5520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199426564, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199426685, "dur":1248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199427938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199427945, "dur":5773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199433735, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199433746, "dur":1109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199434862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199434871, "dur":5291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199440177, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199440187, "dur":1495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199441689, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199441700, "dur":4694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671785199446409, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1671785199446423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199446427, "dur":7841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1671785199454282, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1671785199454296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671785199454301, "dur":10271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1671785199464584, "dur":32490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199337750, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199337750, "dur":7361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199345111, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1671785199345369, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199345524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199363202, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1671785199366232, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1671785199366416, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199366573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199366580, "dur":8191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1671785199374893, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199374909, "dur":1531, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199376449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199376459, "dur":9028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199385508, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199385526, "dur":1817, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199387347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199387353, "dur":10232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199397604, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199397622, "dur":930, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199398558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199398564, "dur":5112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199403691, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199403706, "dur":757, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199404469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199404475, "dur":5182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199409672, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199409683, "dur":1181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199410870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199410877, "dur":5341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199416240, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199416259, "dur":968, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199417231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199417236, "dur":5204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199422458, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199422578, "dur":828, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199423412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199423417, "dur":5304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199428736, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199428746, "dur":985, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199429737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199429742, "dur":6313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199436070, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199436081, "dur":703, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199436815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199436820, "dur":7641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671785199444480, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1671785199444598, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199444687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199445718, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1671785199447705, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1671785199447876, "dur":1093, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199448973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199448978, "dur":6458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1671785199455454, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1671785199455474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671785199455481, "dur":6263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1671785199461767, "dur":35300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199338177, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199338177, "dur":6901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199345085, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1671785199345330, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199345457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199360410, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1671785199362011, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1671785199362208, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199362420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199362738, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1671785199365008, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1671785199365210, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199365488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199365498, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1671785199369234, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199369257, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199369574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199369889, "dur":9575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199379487, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199379511, "dur":1151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199380670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199380712, "dur":11093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199391827, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199391843, "dur":1202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199393049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199393054, "dur":8180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199401254, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199401366, "dur":510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199401881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199401885, "dur":5385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199407287, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199407303, "dur":595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199407902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199407907, "dur":5809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199413731, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199413740, "dur":508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199414252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199414257, "dur":6259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199420531, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199420841, "dur":964, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199421810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199421817, "dur":5108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199426943, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199427073, "dur":1146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199428257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199428264, "dur":5778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199434058, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199434073, "dur":1358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199435440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199435456, "dur":5881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199441354, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199441744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199441748, "dur":5155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671785199446924, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671785199446951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671785199446959, "dur":38079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671785199485055, "dur":12035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199338312, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199338312, "dur":6865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199345177, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1671785199345473, "dur":564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199346067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199361858, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1671785199366510, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1671785199366693, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199366857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199368985, "dur":14335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1671785199383503, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199383551, "dur":1346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199384909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199384920, "dur":11560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199396498, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199396510, "dur":1009, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199397526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199397537, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199402631, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199402643, "dur":933, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199403580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199403586, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199408414, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199408424, "dur":1042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199409470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199409504, "dur":5553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199415070, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199415081, "dur":1133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199416220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199416226, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199421247, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199421344, "dur":873, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199422224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199422230, "dur":5296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199427540, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199427552, "dur":1046, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199428602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199428608, "dur":6245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199434867, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199434878, "dur":933, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199435817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199435823, "dur":8387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199444227, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199444382, "dur":646, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199445038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199445048, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671785199447279, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1671785199447425, "dur":832, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199448261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199448267, "dur":7165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1671785199455452, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1671785199455474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671785199455481, "dur":6311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1671785199461815, "dur":35277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199338039, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199338039, "dur":7133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199345173, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1671785199345519, "dur":1417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199346945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199361814, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1671785199365939, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199366129, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199366288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199367140, "dur":17660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199384932, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199384952, "dur":1988, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199386972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199386978, "dur":10113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199397110, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199397124, "dur":1114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199398250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199398262, "dur":5025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199403301, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199403313, "dur":731, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199404049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199404054, "dur":5332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199409402, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199409414, "dur":804, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199410222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199410227, "dur":5466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199415707, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199415717, "dur":809, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199416531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199416567, "dur":5591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199422172, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199422307, "dur":802, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199423120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199423129, "dur":5163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199428310, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199428359, "dur":936, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199429300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199429307, "dur":7929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199437250, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199437261, "dur":866, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199438131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199438163, "dur":6875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671785199445056, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1671785199445081, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199445092, "dur":7733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1671785199452841, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1671785199452863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671785199452871, "dur":8925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1671785199461816, "dur":35260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199338453, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199338453, "dur":6721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199345175, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1671785199345488, "dur":1112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199346604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199361907, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1671785199365753, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199365974, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199366109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199366797, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199369498, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199369518, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199369974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199369983, "dur":9490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199379494, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199379510, "dur":1128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199380646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199380655, "dur":9018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199389688, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199389701, "dur":2713, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199392419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199392424, "dur":7346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199399784, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199399797, "dur":850, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199400653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199400660, "dur":5058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199405731, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199405741, "dur":914, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199406659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199406664, "dur":5305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199411983, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199411996, "dur":714, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199412715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199412720, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199418180, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199418191, "dur":711, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199418934, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199418939, "dur":5172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199424129, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199424269, "dur":685, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199424958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199424963, "dur":5705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199430685, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199430695, "dur":1083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199431782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199431789, "dur":5533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199437336, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199437350, "dur":892, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199438246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199438251, "dur":6626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671785199444896, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":10, "ts":1671785199444956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199444962, "dur":6098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":10, "ts":1671785199451077, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1671785199451091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671785199451096, "dur":45924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1671785199497038, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1671785199497039, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199338733, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199338733, "dur":6443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199345176, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1671785199345561, "dur":1507, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199347073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199361916, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1671785199366006, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199366223, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199366535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199366542, "dur":33198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199399854, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199399869, "dur":874, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199400747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199400751, "dur":5086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199405850, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199405864, "dur":934, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199406804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199406810, "dur":5632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199412460, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199412475, "dur":724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199413203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199413208, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199418452, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199418463, "dur":874, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199419343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199419347, "dur":5172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199424532, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199424628, "dur":751, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199425383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199425388, "dur":5831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199431236, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199431255, "dur":1091, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199432352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199432357, "dur":5683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199438057, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199438072, "dur":882, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199438958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199438963, "dur":6633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671785199445615, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671785199445639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199445642, "dur":8292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671785199453951, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1671785199453968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671785199453976, "dur":6712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1671785199460714, "dur":36367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199338857, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199338857, "dur":6255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199345112, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1671785199345347, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199345486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199361715, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1671785199365281, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1671785199365487, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199365670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199365680, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1671785199368132, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199368156, "dur":826, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199368989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199370875, "dur":8675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199379564, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199379595, "dur":1051, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199380652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199380659, "dur":10980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199391659, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199391676, "dur":1268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199392950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199392958, "dur":7063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199400035, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199400049, "dur":809, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199400863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199400894, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199405898, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199405908, "dur":870, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199406782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199406787, "dur":5601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199412405, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199412417, "dur":679, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199413101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199413105, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199418347, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199418358, "dur":704, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199419067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199419071, "dur":5181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199424266, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199424360, "dur":662, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199425026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199425056, "dur":5983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199431053, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199431063, "dur":923, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199431994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199432011, "dur":5597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199437625, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199437645, "dur":1095, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199438751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199438761, "dur":6271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671785199445049, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671785199445072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199445078, "dur":8885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671785199453980, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1671785199454000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671785199454005, "dur":8569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/11240/Desktop/unity--20200503430254/JourneyOfCaroline_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1671785199462592, "dur":34485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671785199499914, "dur":2455, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671785199521359, "dur": 1333, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671785199521234, "dur": 1477, "ph": "X", "name": "Write chrome-trace events", "args": {} },
